@@ -1,0 +1,16 @@
+autodiscover.gglobo.com.br
+autodiscover.globo.com.br
+connector.globo.com.br
+extweb.globo.com.br
+globoventures.globo.com.br
+lync.globo.com.br
+lyncdiscover.globo.com.br
+www.mercado-bbb.globo.com.br
+painelalocacao.globo.com.br
+proxysip.globo.com.br
+sip.globo.com.br
+sma.globo.com.br
+tasktracking.globo.com.br
+tasktracking-auth.globo.com.br
+webconf.globo.com.br
+webmail.orgglobo.com.br

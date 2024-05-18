@@ -1,0 +1,497 @@
+{
+  "objectClassName": "ip network",
+  "handle": "186.192.80.0/20",
+  "startAddress": "186.192.80.0",
+  "endAddress": "186.192.95.255",
+  "ipVersion": "v4",
+  "name": "142403",
+  "type": "ALLOCATED",
+  "country": "BR",
+  "status": [
+    "active"
+  ],
+  "nicbr_autnum": 28604,
+  "links": [
+    {
+      "value": "https://rdap.registro.br/ip/186.192.80.0/20",
+      "rel": "self",
+      "href": "https://rdap.registro.br/ip/186.192.80.0/20",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.registro.br/ip/186.192.80.0/20",
+      "rel": "related",
+      "href": "https://rdap.registro.br/domain/80.192.186.in-addr.arpa",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.registro.br/ip/186.192.80.0/20",
+      "rel": "related",
+      "href": "https://rdap.registro.br/domain/81.192.186.in-addr.arpa",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.registro.br/ip/186.192.80.0/20",
+      "rel": "related",
+      "href": "https://rdap.registro.br/domain/82.192.186.in-addr.arpa",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.registro.br/ip/186.192.80.0/20",
+      "rel": "related",
+      "href": "https://rdap.registro.br/domain/83.192.186.in-addr.arpa",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.registro.br/ip/186.192.80.0/20",
+      "rel": "related",
+      "href": "https://rdap.registro.br/domain/84.192.186.in-addr.arpa",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.registro.br/ip/186.192.80.0/20",
+      "rel": "related",
+      "href": "https://rdap.registro.br/domain/85.192.186.in-addr.arpa",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.registro.br/ip/186.192.80.0/20",
+      "rel": "related",
+      "href": "https://rdap.registro.br/domain/86.192.186.in-addr.arpa",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.registro.br/ip/186.192.80.0/20",
+      "rel": "related",
+      "href": "https://rdap.registro.br/domain/87.192.186.in-addr.arpa",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.registro.br/ip/186.192.80.0/20",
+      "rel": "related",
+      "href": "https://rdap.registro.br/domain/88.192.186.in-addr.arpa",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.registro.br/ip/186.192.80.0/20",
+      "rel": "related",
+      "href": "https://rdap.registro.br/domain/89.192.186.in-addr.arpa",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.registro.br/ip/186.192.80.0/20",
+      "rel": "related",
+      "href": "https://rdap.registro.br/domain/90.192.186.in-addr.arpa",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.registro.br/ip/186.192.80.0/20",
+      "rel": "related",
+      "href": "https://rdap.registro.br/domain/91.192.186.in-addr.arpa",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.registro.br/ip/186.192.80.0/20",
+      "rel": "related",
+      "href": "https://rdap.registro.br/domain/92.192.186.in-addr.arpa",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.registro.br/ip/186.192.80.0/20",
+      "rel": "related",
+      "href": "https://rdap.registro.br/domain/93.192.186.in-addr.arpa",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.registro.br/ip/186.192.80.0/20",
+      "rel": "related",
+      "href": "https://rdap.registro.br/domain/94.192.186.in-addr.arpa",
+      "type": "application/rdap+json"
+    },
+    {
+      "value": "https://rdap.registro.br/ip/186.192.80.0/20",
+      "rel": "related",
+      "href": "https://rdap.registro.br/domain/95.192.186.in-addr.arpa",
+      "type": "application/rdap+json"
+    }
+  ],
+  "events": [
+    {
+      "eventAction": "registration",
+      "eventDate": "2010-04-12T15:21:43Z"
+    },
+    {
+      "eventAction": "last changed",
+      "eventDate": "2015-09-03T19:17:19Z"
+    }
+  ],
+  "entities": [
+    {
+      "objectClassName": "entity",
+      "handle": "27865757002490",
+      "vcardArray": [
+        "vcard",
+        [
+          [
+            "version",
+            {},
+            "text",
+            "4.0"
+          ],
+          [
+            "kind",
+            {},
+            "text",
+            "org"
+          ],
+          [
+            "fn",
+            {},
+            "text",
+            "Globo Comunicação e Participaçoes SA"
+          ],
+          [
+            "adr",
+            {},
+            "text",
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "BR"
+            ]
+          ]
+        ]
+      ],
+      "roles": [
+        "registrant"
+      ],
+      "publicIds": [
+        {
+          "type": "cnpj",
+          "identifier": "27.865.757/0024-90"
+        }
+      ],
+      "entities": [
+        {
+          "objectClassName": "entity",
+          "handle": "CLKED1",
+          "vcardArray": [
+            "vcard",
+            [
+              [
+                "version",
+                {},
+                "text",
+                "4.0"
+              ],
+              [
+                "kind",
+                {},
+                "text",
+                "individual"
+              ],
+              [
+                "fn",
+                {},
+                "text",
+                "Clarissa Kede"
+              ],
+              [
+                "email",
+                {},
+                "text",
+                "registro.br@g.globo"
+              ],
+              [
+                "lang",
+                {},
+                "language-tag",
+                "pt"
+              ],
+              [
+                "adr",
+                {},
+                "text",
+                [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "BR"
+                ]
+              ]
+            ]
+          ],
+          "roles": [
+            "administrative"
+          ],
+          "events": [
+            {
+              "eventAction": "registration",
+              "eventDate": "2019-07-29T18:43:08Z"
+            },
+            {
+              "eventAction": "last changed",
+              "eventDate": "2024-04-04T17:55:43Z"
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2005-09-06T12:00:00Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2024-01-10T19:43:41Z"
+        }
+      ],
+      "links": [
+        {
+          "value": "https://rdap.registro.br/entity/27865757002490",
+          "rel": "self",
+          "href": "https://rdap.registro.br/entity/27865757002490",
+          "type": "application/rdap+json"
+        }
+      ],
+      "legalRepresentative": "CLARISSA KEDE"
+    },
+    {
+      "objectClassName": "entity",
+      "handle": "CSGLO",
+      "vcardArray": [
+        "vcard",
+        [
+          [
+            "version",
+            {},
+            "text",
+            "4.0"
+          ],
+          [
+            "kind",
+            {},
+            "text",
+            "individual"
+          ],
+          [
+            "fn",
+            {},
+            "text",
+            "CSIRT Globo.com"
+          ],
+          [
+            "email",
+            {},
+            "text",
+            "csirt@csirt.globo"
+          ],
+          [
+            "lang",
+            {},
+            "language-tag",
+            "pt"
+          ],
+          [
+            "adr",
+            {},
+            "text",
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "BR"
+            ]
+          ]
+        ]
+      ],
+      "roles": [
+        "abuse"
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2015-09-03T19:15:57Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2016-01-04T13:10:38Z"
+        }
+      ]
+    },
+    {
+      "objectClassName": "entity",
+      "handle": "CTG6",
+      "vcardArray": [
+        "vcard",
+        [
+          [
+            "version",
+            {},
+            "text",
+            "4.0"
+          ],
+          [
+            "kind",
+            {},
+            "text",
+            "individual"
+          ],
+          [
+            "fn",
+            {},
+            "text",
+            "Contato Técnico - Globo.com"
+          ],
+          [
+            "email",
+            {},
+            "text",
+            "registro.br@g.globo"
+          ],
+          [
+            "lang",
+            {},
+            "language-tag",
+            "pt"
+          ],
+          [
+            "adr",
+            {},
+            "text",
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "BR"
+            ]
+          ]
+        ]
+      ],
+      "roles": [
+        "technical"
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2000-06-19T12:00:00Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2024-01-11T13:43:09Z"
+        }
+      ]
+    }
+  ],
+  "notices": [
+    {
+      "title": "Use and Privacy Policy",
+      "description": [
+        "Copyright (c) NIC.br",
+        "The use of the data is only permitted as described in",
+        "full by the Use and Privacy Policy, being prohibited its ",
+        "distribution, commercialization or reproduction, in ",
+        "particular, to use it for advertising or any similar ",
+        "purpose."
+      ],
+      "links": [
+        {
+          "value": "https://rdap.registro.br/ip/186.192.80.0/20",
+          "rel": "alternate",
+          "href": "https://registro.br/upp",
+          "type": "text/html"
+        }
+      ]
+    }
+  ],
+  "nicbr_reverseDelegations": [
+    {
+      "startAddress": "186.192.80.0",
+      "endAddress": "186.192.95.255",
+      "nameservers": [
+        {
+          "objectClassName": "nameserver",
+          "ldhName": "ns01.oghost.com.br",
+          "events": [
+            {
+              "eventAction": "delegation check",
+              "eventDate": "2024-05-15T12:00:00Z",
+              "status": [
+                "ns aa"
+              ]
+            },
+            {
+              "eventAction": "last correct delegation check",
+              "eventDate": "2024-05-15T12:00:00Z"
+            }
+          ]
+        },
+        {
+          "objectClassName": "nameserver",
+          "ldhName": "ns04.oghost.com.br",
+          "events": [
+            {
+              "eventAction": "delegation check",
+              "eventDate": "2024-05-15T12:00:00Z",
+              "status": [
+                "ns aa"
+              ]
+            },
+            {
+              "eventAction": "last correct delegation check",
+              "eventDate": "2024-05-15T12:00:00Z"
+            }
+          ]
+        },
+        {
+          "objectClassName": "nameserver",
+          "ldhName": "ns03.oghost.com.br",
+          "events": [
+            {
+              "eventAction": "delegation check",
+              "eventDate": "2024-05-15T12:00:00Z",
+              "status": [
+                "ns aa"
+              ]
+            },
+            {
+              "eventAction": "last correct delegation check",
+              "eventDate": "2024-05-15T12:00:00Z"
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "eventAction": "registration",
+          "eventDate": "2014-07-03T20:32:04Z"
+        },
+        {
+          "eventAction": "last changed",
+          "eventDate": "2014-07-03T20:32:04Z"
+        }
+      ],
+      "secureDNS": {
+        "delegationSigned": false
+      }
+    }
+  ],
+  "rdapConformance": [
+    "rdap_level_0",
+    "nicbr_level_0"
+  ],
+  "port43": "whois.nic.br"
+}
