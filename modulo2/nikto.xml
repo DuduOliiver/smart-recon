@@ -1,0 +1,262 @@
+<?xml version="1.0" ?>
+<!DOCTYPE niktoscans SYSTEM "/var/lib/nikto/docs/nikto.dtd">
+<niktoscans>
+<niktoscan hoststest="0" options="-host http://businesscorp.com.br -output nikto.xml" version="2.5.0" scanstart="Sat May 18 22:55:06 2024" scanend="Wed Dec 31 19:00:00 1969" scanelapsed=" seconds" nxmlversion="1.2">
+
+<scandetails targetip="37.59.174.225" targethostname="businesscorp.com.br" targetport="80" targetbanner="Apache/2.2.22 (Debian)" starttime="2024-05-18 22:55:09" sitename="http://businesscorp.com.br:80/" siteip="http://37.59.174.225:80/" hostheader="businesscorp.com.br" errors="0" checks="6954">
+
+
+<item id="999984" method="GET">
+<description><![CDATA[/: Server may leak inodes via ETags, header found with file /, inode: 132195, size: 7094, mtime: Wed Sep 25 13:05:45 2019.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/]]></iplink>
+<references><![CDATA[CVE-2003-1418]]></references>
+</item>
+
+<item id="999957" method="GET">
+<description><![CDATA[/: The anti-clickjacking X-Frame-Options header is not present.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/]]></iplink>
+<references><![CDATA[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options]]></references>
+</item>
+
+<item id="999103" method="GET">
+<description><![CDATA[/: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/]]></iplink>
+<references><![CDATA[https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/]]></references>
+</item>
+
+<item id="750500" method="GET">
+<description><![CDATA[/bkp/: Directory indexing found.]]></description>
+<uri><![CDATA[/bkp/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/bkp/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/bkp/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="999997" method="GET">
+<description><![CDATA[/robots.txt: Entry '/bkp/' is returned a non-forbidden or redirect HTTP code (200).]]></description>
+<uri><![CDATA[/bkp/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/bkp/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/bkp/]]></iplink>
+<references><![CDATA[https://portswigger.net/kb/issues/00600600_robots-txt-file]]></references>
+</item>
+
+<item id="750500" method="GET">
+<description><![CDATA[/_restrito/: Directory indexing found.]]></description>
+<uri><![CDATA[/_restrito/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/_restrito/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/_restrito/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="999997" method="GET">
+<description><![CDATA[/robots.txt: Entry '/_restrito/' is returned a non-forbidden or redirect HTTP code (200).]]></description>
+<uri><![CDATA[/_restrito/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/_restrito/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/_restrito/]]></iplink>
+<references><![CDATA[https://portswigger.net/kb/issues/00600600_robots-txt-file]]></references>
+</item>
+
+<item id="750500" method="GET">
+<description><![CDATA[/admin/: Directory indexing found.]]></description>
+<uri><![CDATA[/admin/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/admin/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/admin/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="999997" method="GET">
+<description><![CDATA[/robots.txt: Entry '/admin/' is returned a non-forbidden or redirect HTTP code (200).]]></description>
+<uri><![CDATA[/admin/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/admin/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/admin/]]></iplink>
+<references><![CDATA[https://portswigger.net/kb/issues/00600600_robots-txt-file]]></references>
+</item>
+
+<item id="750500" method="GET">
+<description><![CDATA[/_docs/: Directory indexing found.]]></description>
+<uri><![CDATA[/_docs/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/_docs/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/_docs/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="999997" method="GET">
+<description><![CDATA[/robots.txt: Entry '/_docs/' is returned a non-forbidden or redirect HTTP code (200).]]></description>
+<uri><![CDATA[/_docs/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/_docs/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/_docs/]]></iplink>
+<references><![CDATA[https://portswigger.net/kb/issues/00600600_robots-txt-file]]></references>
+</item>
+
+<item id="999996" method="GET">
+<description><![CDATA[/robots.txt: contains 5 entries which should be manually viewed.]]></description>
+<uri><![CDATA[/robots.txt]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/robots.txt]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/robots.txt]]></iplink>
+<references><![CDATA[https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt]]></references>
+</item>
+
+<item id="999100" method="GET">
+<description><![CDATA[/index: Uncommon header 'tcn' found, with contents: list.]]></description>
+<uri><![CDATA[/index]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/index]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/index]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="999965" method="GET">
+<description><![CDATA[/index: Apache mod_negotiation is enabled with MultiViews, which allows attackers to easily brute force file names. The following alternatives for 'index' were found: index.html.]]></description>
+<uri><![CDATA[/index]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/index]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/index]]></iplink>
+<references><![CDATA[http://www.wisec.it/sectou.php?id=4698ebdc59d15,https://exchange.xforce.ibmcloud.com/vulnerabilities/8275]]></references>
+</item>
+
+<item id="600050" method="HEAD">
+<description><![CDATA[Apache/2.2.22 appears to be outdated (current is at least Apache/2.4.54). Apache 2.2.34 is the EOL for the 2.x branch.]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="999990" method="OPTIONS">
+<description><![CDATA[OPTIONS: Allowed HTTP Methods: GET, HEAD, POST, OPTIONS .]]></description>
+<uri><![CDATA[/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="001218" method="GET">
+<description><![CDATA[/sitemap.xml: This gives a nice listing of the site content.]]></description>
+<uri><![CDATA[/sitemap.xml]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/sitemap.xml]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/sitemap.xml]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="001538" method="GET">
+<description><![CDATA[/access.log: This might be interesting.]]></description>
+<uri><![CDATA[/access.log]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/access.log]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/access.log]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="001551" method="GET">
+<description><![CDATA[/admin/: This might be interesting.]]></description>
+<uri><![CDATA[/admin/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/admin/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/admin/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="999986" method="GET">
+<description><![CDATA[/app/: Retrieved x-powered-by header: PHP/5.4.45-0+deb7u2.]]></description>
+<uri><![CDATA[/app/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/app/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/app/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="001563" method="GET">
+<description><![CDATA[/app/: This might be interesting.]]></description>
+<uri><![CDATA[/app/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/app/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/app/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="750500" method="GET">
+<description><![CDATA[/css/: Directory indexing found.]]></description>
+<uri><![CDATA[/css/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/css/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/css/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="001631" method="GET">
+<description><![CDATA[/css/: This might be interesting.]]></description>
+<uri><![CDATA[/css/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/css/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/css/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="001640" method="GET">
+<description><![CDATA[/db/: This might be interesting.]]></description>
+<uri><![CDATA[/db/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/db/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/db/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="001711" method="GET">
+<description><![CDATA[/intranet/: This might be interesting.]]></description>
+<uri><![CDATA[/intranet/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/intranet/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/intranet/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="750510" method="GET">
+<description><![CDATA[/info.php: Output from the phpinfo() function was found.]]></description>
+<uri><![CDATA[/info.php]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/info.php]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/info.php]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="002989" method="GET">
+<description><![CDATA[/info.php: PHP is installed, and a test script which runs phpinfo() was found. This gives a lot of system information.]]></description>
+<uri><![CDATA[/info.php]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/info.php]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/info.php]]></iplink>
+<references><![CDATA[CWE-552]]></references>
+</item>
+
+<item id="750500" method="GET">
+<description><![CDATA[/images/: Directory indexing found.]]></description>
+<uri><![CDATA[/images/]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/images/]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/images/]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<item id="003584" method="GET">
+<description><![CDATA[/icons/README: Apache default file found.]]></description>
+<uri><![CDATA[/icons/README]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/icons/README]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/icons/README]]></iplink>
+<references><![CDATA[https://www.vntweb.co.uk/apache-restricting-access-to-iconsreadme/]]></references>
+</item>
+
+<item id="005170" method="GET">
+<description><![CDATA[/info.php?file=http://blog.cirt.net/rfiinc.txt: Remote File Inclusion (RFI) from RSnake's RFI list.]]></description>
+<uri><![CDATA[/info.php?file=http://blog.cirt.net/rfiinc.txt]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/info.php?file=http://blog.cirt.net/rfiinc.txt]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/info.php?file=http://blog.cirt.net/rfiinc.txt]]></iplink>
+<references><![CDATA[https://gist.github.com/mubix/5d269c686584875015a2]]></references>
+</item>
+
+<item id="007252" method="GET">
+<description><![CDATA[/#wp-config.php#: #wp-config.php# file found. This file contains the credentials.]]></description>
+<uri><![CDATA[/#wp-config.php#]]></uri>
+<namelink><![CDATA[http://businesscorp.com.br:80/#wp-config.php#]]></namelink>
+<iplink><![CDATA[http://37.59.174.225:80/#wp-config.php#]]></iplink>
+<references><![CDATA[]]></references>
+</item>
+
+<statistics elapsed="1991" itemsfound="31" itemstested="6954" endtime="2024-05-18 23:28:20" />
+</scandetails>
+</niktoscan>
+
+
+</niktoscans>
